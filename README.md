@@ -1,4 +1,4 @@
-# agentivo
+# Agentivo
 
 Community-maintained, AI-moderated projects.
 
