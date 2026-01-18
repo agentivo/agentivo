@@ -60,10 +60,10 @@ def main():
     print("1. Copy the App ID from the app settings page")
     print("2. Scroll down and click 'Generate a private key'")
     print("3. Install the app on agentivo repos (left sidebar -> Install App)")
-    print("4. For each repo that needs auto-restart, add secrets:")
+    print("4. Add org-level secrets (available to all repos):")
     print()
-    print("   gh secret set APP_ID -R agentivo/REPO_NAME")
-    print("   gh secret set APP_PRIVATE_KEY -R agentivo/REPO_NAME < ~/Downloads/*.pem")
+    print("   gh secret set APP_ID --org agentivo --visibility all")
+    print("   gh secret set APP_PRIVATE_KEY --org agentivo --visibility all < ~/Downloads/*.pem")
 
 
 if __name__ == "__main__":
