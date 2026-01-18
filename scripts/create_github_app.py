@@ -23,6 +23,7 @@ DESCRIPTION = "Workflow automation for agentivo repos"
 PERMISSIONS = {
     "actions": "write",
     "contents": "read",
+    "organization_models": "read",
 }
 
 
